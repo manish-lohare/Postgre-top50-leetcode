@@ -1,3 +1,12 @@
-## 📌 SQL Challenge: Find Employees' Primary Department
+##📌 SQL Challenge: Find Employees' Primary Department
 Problem Statement
 We have an Employee table that contains information about employees and their respective department assignments. Employees can belong to multiple departments, and they need to specify one primary department.
+
+##Constraints:
+The combination of (employee_id, department_id) is the primary key.
+An employee can belong to multiple departments.
+If an employee has only one department, their primary_flag is always 'N'.
+If an employee has multiple departments, one of them will have primary_flag = 'Y', indicating it is their primary department.
+##Objective:
+Write an SQL query to return the employee_id along with their primary department_id. If an employee has only one department, that department should be considered their primary.
+
