@@ -1,0 +1,3 @@
+## 📌 SQL Challenge: Find Employees' Primary Department
+Problem Statement
+We have an Employee table that contains information about employees and their respective department assignments. Employees can belong to multiple departments, and they need to specify one primary department.
