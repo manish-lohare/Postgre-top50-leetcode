@@ -1,0 +1,22 @@
+SQL Query to Categorize Bank Accounts by Income
+
+Problem Statement
+We have a database table named Accounts that stores information about bank accounts and their monthly income.
+
+Objective
+Write an SQL query to classify bank accounts into three salary categories based on their monthly income and count the number of accounts in each category.
+
+Salary Categories
+Low Salary: income < 20000
+Average Salary: income BETWEEN 20000 AND 50000 (inclusive)
+High Salary: income > 50000
+The result table should always include all three categories, even if a category has zero accounts.
+
+Explanation
+"Low Salary" category includes account 2 with an income of 12747.
+"Average Salary" category has no accounts in the range [20000, 50000], so the count is 0.
+"High Salary" category includes accounts 3, 6, and 8, as their incomes are greater than 50000.
+
+Constraints
+Each account_id is unique.
+The result should include all three salary categories, even if some have zero accounts.
